@@ -4,6 +4,6 @@
    
   
   <p>The quote was published{{quote.completeDate|dateCount}} days ago</p>
-  <button (click)= 'upvote'class="btn btn-outline-success" id="upvote">{{quote.upvote}} up vote</button>
-  <button (click)= 'downvote'class="btn btn-outline-danger" id="downvote">{{quote.downvote}} down vote</button>
+  <button (click)= 'upvote()'class="btn btn-outline-success" id="upvote">{{quote.upvote}} up vote</button>
+  <button (click)= 'downvote()'class="btn btn-outline-danger" id="downvote">{{quote.downvote}} down vote</button>
   <button (click)= 'quoteDelete(true)'class="btn btn-outline-danger">Delete Quote</button>

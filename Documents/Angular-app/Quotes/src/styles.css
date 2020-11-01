@@ -1,8 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 body{
-    background-image: url('https://images.unsplash.com/photo-1600655584427-65c6ebfca603?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+    background-image: url('https://images.unsplash.com/photo-1520013817300-1f4c1cb245ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=787&q=80');
 background-repeat: no-repeat;
 background-size: cover;
-color:white;
+color:black;
 }
+h1{
+   font-size: 70px;
+   font-style: italic;
+   font-weight: 700;
+   color:darkblue;
+}
+h2{
+    font-size: 30px;
+    color:darkblue
+}
+ 
