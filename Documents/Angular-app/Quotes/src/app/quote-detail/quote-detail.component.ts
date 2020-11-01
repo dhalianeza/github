@@ -17,6 +17,12 @@ export class QuoteDetailComponent implements OnInit {
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
   }
+  upvote(){
+    this.quote.upvote+=1;
+  }
+  downvote(){
+    this.quote.downvote-=1;
+  }
   constructor() { }
 
   ngOnInit() {
